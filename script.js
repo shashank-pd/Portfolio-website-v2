@@ -1,8 +1,16 @@
 var typed = new Typed("#element", {
-    strings: [
-      "Competitive Progammer",
-      "Web Developer",
-      "Front-End Developer",
-    ],
-    typeSpeed: 30,
-  });
+  strings: [
+    "Programming",
+    "Web Development",
+    "Problem Solving",
+    "Continuous Learning",
+    "Coding Challenges",
+    "Innovative Solutions",
+    "Tech Exploration",
+    "Building Cool Projects",
+    "Experimenting with Code",
+    "Software Development",
+],
+  typeSpeed: 30,
+  loop: true, 
+});
