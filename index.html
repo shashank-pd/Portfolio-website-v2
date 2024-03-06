@@ -8,66 +8,102 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Shashank Prasad - Portfolio</title>
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <h1>Shashank-pd</h1>
-        </div>
-        <div class="main-nav borderYtoX">
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Shashank-pd</h1>
+            </div>
+            <div class="main-nav borderYtoX">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a class="navbar-link active" href="./index.html">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#second">About</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#service">Skills</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="./news.html">Project</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-            <ul class="navbar-list">
-                <li class="navbar-item">
-                    <a class="navbar-link active" href="./index.html">Home</a>
-                </li>
-                <li class="navbar-item">
-                    <a class="navbar-link" data-nav-link href="./about.html">About</a>
-                </li>
-                <li class="navbar-item">
-                    <a class="navbar-link" data-nav-link href="#service">Skills</a>
-                </li>
-                <li class="navbar-item">
-                    <a class="navbar-link" data-nav-link href="./news.html">Project</a>
-                </li>
-                <li class="navbar-item">
-                    <a class="navbar-link" data-nav-link href="./contact.html">Contact</a>
-                </li>
-            </ul>
-
-        </div>
-    </nav>
     <main>
-        <section class="first-section">
-
-            <div class="intro">
+        <article class="first">
+            <section class="intro">
                 <p>Hello, It's Me</p>
                 <h1>Shashank Prasad</h1>
                 <div>I'm a student who is passionate in <span id="element"></span></div>
 
-                <div class="resume">
-
+                <section class="resume">
                     <a href="./assests/img/shashank.jpg" download="Shashank-pd (Resume)" class="dark">
                         <button type="button" data-dl>
                             <span class="dl-icon"></span><span>RESUME</span>
                         </button>
                     </a>
-                </div>
+                </section>
 
-            </div>
+                <section class="social">
+                        <ul class="social-icons">
+                          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/shashank-pd" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+                          <li><a class="github" aria-label="GitHub" href="https://github.com/shashank-pd" target="_blank"><i class="fab fa-github"></i></a></li>
+                          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/shashank.060" target="_blank"><i class="fab fa-instagram" target="_blank"></i></a></li>
+                        </ul>
+                </section>
 
-            <div class="my-pic">
-                <img src="./assests/img/shashank.jpg" />
-            </div>
+            </section>
 
-        </section>
+            <section class="my-pic">
+                <img src="./assests/img/shashank.jpg" alt="Shashank Prasad's Photo">
+            </section>
+        </article>
 
+
+        <article class="second">
+            <header>
+                <h2 class="second-title">About<span> Me</span></h2>
+            </header>
+            <section class="about-text">
+                <p>
+                    I'm on a journey to enhance my skills and strive for excellence.
+                    I bring a dynamic and energetic approach to my work, fueled by a deep
+                    motivation to tackle challenging issues.
+                    I see challenges as opportunities for growth and embrace each task with
+                    enthusiasm. Learning is a continuous process for me, and I'm always ready
+                    to adapt to new situations.
+                </p>
+                <p>
+                    With a forward-thinking mindset and a proactive approach,
+                    I am eager to take on new challenges and make impactful contributions.
+                    I thrive in environments that encourage innovation and creativity, and
+                    I am committed to delivering exceptional results with every project
+                    I undertake.
+                </p>
+                <p>
+                    Thank you for considering my profile. I'm eager for the chance to contribute
+                    and excel in any endeavor.
+                </p>
+                <p class="place"><b>PLACE :</b> CHENNAI</p>
+                <p class="email"><b>Email :</b> sp0261@srmist.edu.in</p>
+            </section>
+
+        </article>
     </main>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/c6fb6cedc5.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
-
 </body>
 
 </html>
