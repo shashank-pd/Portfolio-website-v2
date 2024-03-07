@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="main-header">
         <nav class="navbar">
             <div class="logo">
                 <h1>Shashank-pd</h1>
@@ -55,25 +55,29 @@
                 </section>
 
                 <section class="social">
-                        <ul class="social-icons">
-                          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/shashank-pd" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
-                          <li><a class="github" aria-label="GitHub" href="https://github.com/shashank-pd" target="_blank"><i class="fab fa-github"></i></a></li>
-                          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/shashank.060" target="_blank"><i class="fab fa-instagram" target="_blank"></i></a></li>
-                        </ul>
+                    <ul class="social-icons">
+                        <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/shashank-pd"
+                                target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a class="github" aria-label="GitHub" href="https://github.com/shashank-pd"
+                                target="_blank"><i class="fab fa-github"></i></a></li>
+                        <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/shashank.060"
+                                target="_blank"><i class="fab fa-instagram" target="_blank"></i></a></li>
+                    </ul>
                 </section>
 
             </section>
 
             <section class="my-pic">
-                <img src="./assests/img/shashank.jpg" alt="Shashank Prasad's Photo">
+                <img src="./assests/img/shashank.jpg" draggable="false" (dragstart)="false;"
+                    alt="Shashank Prasad's Photo">
             </section>
         </article>
 
 
         <article class="second">
-            <header>
+            <section>
                 <h2 class="second-title">About<span> Me</span></h2>
-            </header>
+            </section>
             <section class="about-text">
                 <p>
                     I'm on a journey to enhance my skills and strive for excellence.
@@ -99,6 +103,101 @@
             </section>
 
         </article>
+
+
+        <article class="third">
+            <section>
+                <h2 class="third-title"><span>My</span> Skills</h2>
+            </section>
+            <section class="skill">
+                <ul class="skills-list">
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">HTML</h5>
+                            <data value="80">80%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 70%;"></div>
+                        </div>
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">CSS</h5>
+                            <data value="60">60%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 40%;"></div>
+                        </div>
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Javascript</h5>
+                            <data value="30">30%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 30%;"></div>
+                        </div>
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Django</h5>
+                            <data value="20">20%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 40%;"></div>
+                        </div>
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">SQL</h5>
+                            <data value="35">35%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 40%;"></div>
+                        </div>
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Python</h5>
+                            <data value="60">60%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 70%;"></div>
+                        </div>
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Leadership</h5>
+                            <data value="90">90%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 90%;"></div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </article>
+
+        <article class="fourth">
+            <section class="education">
+                <h2 class="fourth-title">My <span> Education</span></h2>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="image">
+                            <img draggable="false" src="./assests/img/college.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>B.Tech in Computer Science and Engineering</h3>
+                            <p>Specialization: Big Data</p>
+                            <p>SRM Institute of Science and Technology, KTR Campus</p>
+                            <h4>2022-2026 | Pursuing</h4>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+
     </main>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
