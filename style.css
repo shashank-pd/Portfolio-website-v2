@@ -53,9 +53,7 @@ header {
 }
 
 .navbar-item {
-  padding-left: 40px;
-  
-
+  padding-right: 30px;
 }
 
 .navbar a.active {
@@ -676,7 +674,6 @@ button span+span {
   width: 70%;
   border-radius: 0.5rem;
   box-shadow: 0.1rem 0.2rem 1rem aqua;
-  
   position: relative;
   margin-top: 50px;
   transition: 0.3s;
@@ -716,4 +713,66 @@ button span+span {
   color: #fff; /* Set the text color to white */
 }
 
+.fifth {
+  background-color: rgb(24, 24, 24);
+}
 
+.fifth-title {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 50px;
+}
+
+.fifth-title span {
+  color: aqua;
+}
+
+.card {
+  width: 400px;
+  aspect-ratio: 1 / 0.7;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card .image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s ease-in-out;
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  inset: 20px;
+  border: 2px solid white;
+  border-radius: 8px;
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+}
+.card:hover .image-box img {
+  filter: grayscale(1) brightness(0.4);
+}
+
+.card:hover::after {
+  opacity: 1;
+}
+.card .content {
+  position: absolute;
+  bottom: 20px;
+  left: 100px;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  transform: translateY(20px);  
+}
+.card:hover .content {
+  opacity: 1;
+  transform: translateY(0);
+  
+}
+
+.card{
+  margin-top: 100px;
+}

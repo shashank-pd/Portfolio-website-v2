@@ -40,17 +40,14 @@ document.addEventListener("DOMContentLoaded",function(){
     }
   });
 });
+function getMSFromProperty(property,selector) {
+  let cs = window.getComputedStyle(document.querySelector(selector)),
+    transDur = cs.getPropertyValue(property),
+    msLabelPos = transDur.indexOf("ms"),
+    sLabelPos = transDur.indexOf("s");
 
-document.addEventListener("DOMContentLoaded", function () {
-    // Select all links with hashes
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      // Smooth scroll on click
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-        });
-      });
-    });
-  });
+  if (msLabelPos > -1)
+    return transDur.substr(0,msLabelPos);
+  else if (sLabelPos > -1)
+    return transDur.substr(0,sLabelPos) * 1e3;
+}
