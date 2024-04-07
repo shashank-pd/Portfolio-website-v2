@@ -27,6 +27,8 @@ document.addEventListener("DOMContentLoaded", function () {
         tar.classList.add(dlClass);
         lastSpan.textContent = "Downloading…";
         tar.disabled = true;
+        tar.style.borderColor = "#ffffff";
+        tar.style.color = "#ffffff"; 
 
         setTimeout(() => {
           lastSpan.textContent = "Completed!";
@@ -36,6 +38,8 @@ document.addEventListener("DOMContentLoaded", function () {
           tar.classList.remove(dlClass);
           lastSpan.textContent = lastSpanText;
           tar.disabled = false;
+          tar.style.borderColor = "";
+          tar.style.color = ""; 
         }, timeout + 1000);
       }
     }
@@ -45,3 +49,30 @@ document.addEventListener("DOMContentLoaded", function () {
 function getMSFromProperty(prop, el) {
   return parseFloat(getComputedStyle(document.querySelector(el)).getPropertyValue(prop)) * 1000;
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Get all navbar links
+  const navbarLinks = document.querySelectorAll(".navbar-link");
+
+  // Function to highlight the active link
+  function highlightNavbarLink() {
+      const sections = document.querySelectorAll("article");
+      const scrollPosition = window.scrollY + 100; 
+
+      sections.forEach((section, index) => {
+          const top = section.offsetTop;
+          const height = section.offsetHeight;
+
+          if (scrollPosition >= top && scrollPosition < top + height) {
+              navbarLinks.forEach(link => {
+                  link.classList.remove("active");
+              });
+              navbarLinks[index].classList.add("active");
+          }
+      });
+
+  }
+
+  window.addEventListener("scroll", highlightNavbarLink);
+  highlightNavbarLink();
+});
