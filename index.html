@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shashank Prasad Portfolio website">
+    <meta name="keywords" content="shashank,portfolio,website">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
@@ -20,22 +22,25 @@
             <div class="main-nav borderYtoX">
                 <ul class="navbar-list">
                     <li class="navbar-item">
-                        <a class="navbar-link active" href="./index.html">Home</a>
+                        <a class="navbar-link active" href="#home">Home</a>
                     </li>
                     <li class="navbar-item">
-                        <a class="navbar-link" href="#second">About</a>
+                        <a class="navbar-link" href="#about">About</a>
                     </li>
                     <li class="navbar-item">
-                        <a class="navbar-link" href="#service">Skills</a>
+                        <a class="navbar-link" href="#skills">Skills</a>
                     </li>
                     <li class="navbar-item">
                         <a class="navbar-link" href="#education">Education</a>
                     </li>
                     <li class="navbar-item">
-                        <a class="navbar-link" href="./news.html">Project</a>
+                        <a class="navbar-link" href="#project">Project</a>
                     </li>
                     <li class="navbar-item">
-                        <a class="navbar-link" href="./contact.html">Contact</a>
+                        <a class="navbar-link" href="#certificates">Certificates</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -43,14 +48,14 @@
     </header>
 
     <main>
-        <article class="first">
+        <article class="first" id="home">
             <section class="intro">
                 <p>Hello, It's Me</p>
                 <h1>Shashank Prasad</h1>
                 <div>I'm a student who is passionate in <span id="element"></span></div>
 
                 <section class="resume">
-                    <a href="./assests/img/shashank.jpg" download="Shashank-pd (Resume)" class="dark">
+                    <a href="./assests/img/shashank.webp" download="Shashank-pd (Resume)" class="dark">
                         <button type="button" data-dl>
                             <span class="dl-icon"></span><span>RESUME</span>
                         </button>
@@ -60,7 +65,7 @@
                 <section class="social">
                     <ul class="social-icons">
                         <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/shashank-pd"
-                                target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                                target="_blank"><i class="fab fa-linkedin "></i></a></li>
                         <li><a class="github" aria-label="GitHub" href="https://github.com/shashank-pd"
                                 target="_blank"><i class="fab fa-github"></i></a></li>
                         <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/shashank.060"
@@ -71,13 +76,13 @@
             </section>
 
             <section class="my-pic">
-                <img src="./assests/img/shashank.jpg" draggable="false" (dragstart)="false;"
+                <img src="./assests/img/shashank.webp" draggable="false" (dragstart)="false;"
                     alt="Shashank Prasad's Photo">
             </section>
         </article>
 
 
-        <article class="second">
+        <article class="second" id="about">
             <section>
                 <h2 class="second-title">About<span> Me</span></h2>
             </section>
@@ -108,7 +113,7 @@
         </article>
 
 
-        <article class="third">
+        <article class="third" id="skills">
             <section>
                 <h2 class="third-title"><span>My</span> Skills</h2>
             </section>
@@ -116,7 +121,7 @@
                 <ul class="skills-list">
                     <li class="skills-item">
                         <div class="title-wrapper">
-                            <h5 class="h5">HTML</h5>
+                            <h5 class="skill-title">HTML</h5>
                             <data value="80">80%</data>
                         </div>
                         <div class="skill-progress-bg">
@@ -125,7 +130,7 @@
                     </li>
                     <li class="skills-item">
                         <div class="title-wrapper">
-                            <h5 class="h5">CSS</h5>
+                            <h5 class="skill-title">CSS</h5>
                             <data value="60">60%</data>
                         </div>
                         <div class="skill-progress-bg">
@@ -134,7 +139,7 @@
                     </li>
                     <li class="skills-item">
                         <div class="title-wrapper">
-                            <h5 class="h5">Javascript</h5>
+                            <h5 class="skill-title">Javascript</h5>
                             <data value="30">30%</data>
                         </div>
                         <div class="skill-progress-bg">
@@ -143,7 +148,7 @@
                     </li>
                     <li class="skills-item">
                         <div class="title-wrapper">
-                            <h5 class="h5">Django</h5>
+                            <h5 class="skill-title">Django</h5>
                             <data value="20">20%</data>
                         </div>
                         <div class="skill-progress-bg">
@@ -152,7 +157,7 @@
                     </li>
                     <li class="skills-item">
                         <div class="title-wrapper">
-                            <h5 class="h5">SQL</h5>
+                            <h5 class="skill-title">SQL</h5>
                             <data value="35">35%</data>
                         </div>
                         <div class="skill-progress-bg">
@@ -161,7 +166,7 @@
                     </li>
                     <li class="skills-item">
                         <div class="title-wrapper">
-                            <h5 class="h5">Python</h5>
+                            <h5 class="skill-title">Python</h5>
                             <data value="60">60%</data>
                         </div>
                         <div class="skill-progress-bg">
@@ -170,7 +175,7 @@
                     </li>
                     <li class="skills-item">
                         <div class="title-wrapper">
-                            <h5 class="h5">Leadership</h5>
+                            <h5 class="skill-title">Leadership</h5>
                             <data value="90">90%</data>
                         </div>
                         <div class="skill-progress-bg">
@@ -181,13 +186,13 @@
             </section>
         </article>
 
-        <article class="fourth">
+        <article class="fourth" id="education">
             <section class="education">
                 <h2 class="fourth-title">My <span> Education</span></h2>
                 <div class="box-container">
                     <div class="box">
                         <div class="image">
-                            <img draggable="false" src="./assests/img/college.jpg" alt="">
+                            <img draggable="false" src="./assests/img/college.webp" alt="srm college">
                         </div>
                         <div class="content">
                             <h3>B.Tech in Computer Science and Engineering</h3>
@@ -201,29 +206,207 @@
             </section>
         </article>
 
-        <article class="fifth">
+        <article class="fifth" id="project">
             <section>
-                <h2 class="fifth-title"><span>PROJECT</span> Made</h2>
+                <h3 class="fifth-title"><span>PROJECT</span> Made</h3>
             </section>
             <section class="project-card">
-                <div class="card">
+                <a href="https://github.com/shashank-pd/SalesWave" target="_blank" class="card">
                     <div class="image-box">
-                        <img src="./assests/img/project-1.png">
+                        <img src="./assests/img/project-1.webp" alt="project">
                     </div>
                     <div class="before-content">
-                        HELLO
+                        <h3>SALES WAVE</h3>
                     </div>
                     <div class="content">
-                        <h2>Sales Management System</h2>
-                        <p> Developed a user-friendly Sales Management System using C++ and OOP, integrating features
-                            like order calculations, reports, product search, and key OOP concepts demonstrating proficiency and practical solution development
-                            for real-world business needs.</p>
-                      </div>
-                      
-                </div>
+                        <h3>SALES WAVE</h3>
+                        <p>Developed a user-friendly Sales Management System using C++ and OOP, integrating features
+                            like order calculations, reports, product search, and key OOP concepts demonstrating
+                            proficiency and practical solution development for real-world business needs.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/shashank-pd/Apex-Legal-Solutions" target="_blank" class="card">
+                    <div class="image-box">
+                        <img src="./assests/img/project-2.webp" alt="project">
+                    </div>
+                    <div class="before-content">
+                        <h3>APEX LEGAL SOLUTION</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Apex Legal Solution</h3>
+                        <p>Apex Legal Solution, a platform dedicated to presenting legal services. This website is
+                            designed to provide information about legal services offered by Apex Legal Solution.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/shashank-pd/Bharat-Forecast" target="_blank" class="card">
+                    <div class="image-box">
+                        <img src="./assests/img/project-3.webp" alt="project">
+                    </div>
+                    <div class="before-content">
+                        <h3>BHARAT FORECAST</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Bharat Forecast</h3>
+                        <p>BharatForecast is a straightforward weather forecast application that delivers current
+                            weather details for a city. Gain real-time insights into temperature, humidity, wind speed,
+                            and more through an intuitive interface.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/shashank-pd/SRM-MessExplorer" target="_blank" class="card">
+                    <div class="image-box">
+                        <img src="./assests/img/project-4.webp" alt="project">
+                    </div>
+                    <div class="before-content">
+                        <h3>SRM MESS EXPLORER</h3>
+                    </div>
+                    <div class="content">
+                        <h3>SRM-MessExplorer</h3>
+                        <p>It is a hassle-free web tool for SRM University students. Instantly check daily mess menus,
+                            timings, and navigate effortlessly between days. Enjoy a seamless dining experience with
+                            real-time updates.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/shashank-pd/Plant-Monitoring-System" target="_blank" class="card">
+                    <div class="image-box">
+                        <img src="./assests/img/project-5.webp" alt="project">
+                    </div>
+                    <div class="before-content">
+                        <h3>PLANT MONITORING SYSTEM</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Plant Monitoring System</h3>
+                        <p>Developed a user-friendly Sales Management System using C++ and OOP, integrating features
+                            like order calculations, reports, product search, and key OOP concepts demonstrating
+                            proficiency and practical solution development for real-world business needs.</p>
+                    </div>
+                </a>
             </section>
         </article>
 
+        <article class="sixth" id="certificates">
+            <section>
+                <h2 class="sixth-title">My<span> Certificates</span></h2>
+            </section>
+            <section class="project-card">
+                <a href="https://github.com/shashank-pd/SalesWave" target="_blank" class="card">
+                    <div class="image-box">
+                        <img src="./assests/certificates/SIH.webp" alt="certificates">
+                    </div>
+                    <div class="before-content">
+                        <h3>SMART INDIA HACATHON</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Smart India Hackathon</h3>
+                        <p>Thrilled to share that our team successfully qualified in the internal hackathon, standing
+                            out among 400 participating teams.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/shashank-pd/Apex-Legal-Solutions" target="_blank" class="card">
+                    <div class="image-box">
+                        <img src="./assests/certificates/OODP.webp" alt="certificates">
+                    </div>
+                    <div class="before-content">
+                        <h3>OODP HACK</h3>
+                    </div>
+                    <div class="content">
+                        <h3>OODP Hack</h3>
+                        <p>As part of a collaborative effort with my team, we participated in the 24-hour
+                            Object-Oriented Design and Programming (OODP) competition organized by SRM University. Our
+                            team secured the First Position in the coding round, showcasing our strong programming
+                            skills.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/shashank-pd/Bharat-Forecast" target="_blank" class="card">
+                    <div class="image-box">
+                        <img src="./assests/certificates/LAYER.webp" alt="certificates">
+                    </div>
+                    <div class="before-content">
+                        <h3>LAYER</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Layer Blockchain Hackathon</h3>
+                        <p>First-time participated in a blockchain hackathon, dedicated to driving healthcare sector
+                            transformation through innovative blockchain solutions.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/shashank-pd/SRM-MessExplorer" target="_blank" class="card">
+                    <div class="image-box">
+                        <img src="./assests/certificates/Datakon.webp" alt="certificates">
+                    </div>
+                    <div class="before-content">
+                        <h3>DATAKON</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Datakon</h3>
+                        <p>Presented a project focused on empowering doctors with data-driven insights, aiming to
+                            enhance healthcare delivery.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/shashank-pd/SRM-MessExplorer" target="_blank" class="card">
+                    <div class="image-box">
+                        <img src="./assests/certificates/Ideathon.webp" alt="certificates">
+                    </div>
+                    <div class="before-content">
+                        <h3>IDEATHON</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Ideathon</h3>
+                        <p>Participated in "Ideathon 4.0" with a project/idea aimed at revolutionizing the healthcare
+                            sector. </p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/shashank-pd/Plant-Monitoring-System" target="_blank" class="card">
+                    <div class="image-box">
+                        <img src="./assests/certificates/plant.webp" alt="certificates">
+                    </div>
+                    <div class="before-content">
+                        <h3>PLANT MONITORING SYSTEM</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Plant Monitoring System</h3>
+                        <p>I worked on a project to make a Plant Monitoring System. It takes care of rare plants, lab
+                            species, and crops.
+                            As a result,it not only earned the first prize but also received accolades from the expert
+                            committee for its outstanding
+                            performance.</p>
+                    </div>
+                </a>
+            </section>
+        </article>
+
+        <article class="seventh" id="contact">
+            <section>
+                <h3 class="seventh-title"><span>Contact</span> Me</h3>
+            </section>
+            <section>
+                <div class="contact">
+                    <form class="form" action="#" netlify>
+            
+                      <div class="input-wrapper">
+                        <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
+            
+                        <input type="email" name="email" class="form-input" placeholder="Email address" required>
+                      </div>
+            
+                      <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+            
+                      <button class="form-btn" type="submit">
+                       Send Message
+                      </button>
+            
+                    </form>              
+                </div>
+               
+            </section>
     </main>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
