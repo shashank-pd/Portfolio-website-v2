@@ -507,16 +507,24 @@ button span+span {
   background-color: #ee00da;
 }
 
-
+.section-title-01 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 3.0rem;
+  background: linear-gradient(to top, transparent 0%, white 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: .2;
+}
 
 .second {
-  padding-top: 50px;
+  padding-top: 10px;
   /* Adjust the value based on your header height */
   background-color: #00100f;
   color: #dddbdb;
   padding-left: 100px;
   padding-right: 100px;
-
+  
 }
 
 .second-title {
@@ -524,7 +532,7 @@ button span+span {
   margin-top: 0;
   color: #ffffff;
   z-index: 0;
-
+  margin-top: -60px;
 }
 
 .second-title span {
@@ -567,9 +575,10 @@ button span+span {
 
 
 
+
 /* Style the skills section */
 .third {
-  padding-top: 50px;
+  padding-top: 10px;
   /* Adjust the value based on your header height */
   background-color: rgb(24, 24, 24);
   color: #ffffff;
@@ -578,11 +587,22 @@ button span+span {
   padding-bottom: 50px;
 }
 
+.third-title-01 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 3.0rem;
+  background: linear-gradient(to top, transparent 0%, white 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: .2;
+}
+
 .third-title {
   text-align: center;
   margin-top: 0;
   color: #ffffff;
   z-index: 0;
+  margin-top: -60px;
 }
 
 .third-title span {
