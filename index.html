@@ -15,6 +15,21 @@
 
 <body>
     <header class="main-header">
+        <div class="side-nav">
+            <button class="open-btn" onclick="openNav()">☰</button>
+    
+            <div class="sidenav">
+                <button class="close-btn" onclick="closeNav()">×</button>
+                <a class="navbar-link active" href="#home">Home</a>
+                <a class="navbar-link" href="#about">About</a>
+                <a class="navbar-link" href="#skills">Skills</a>
+                <a class="navbar-link" href="#education">Education</a>
+                <a class="navbar-link" href="#project">Project</a>
+                <a class="navbar-link" href="#certificates">Certificates</a>
+                <a class="navbar-link" href="#contact">Contact</a>
+            </div>
+        </div> 
+
         <nav class="navbar">
             <div class="logo">
                 <h1>Shashank-pd</h1>
@@ -49,6 +64,7 @@
 
     <main>
         <article class="first" id="home">
+            
             <section class="intro">
                 <p>Hello, It's Me</p>
                 <h1>Shashank Prasad</h1>
@@ -194,7 +210,7 @@
                         <div class="image">
                             <img draggable="false" src="./assests/img/college.webp" alt="srm college">
                         </div>
-                        <div class="content">
+                        <div class="edu-content">
                             <h3>B.Tech in Computer Science and Engineering</h3>
                             <p>Specialization: Big Data</p>
                             <p>SRM Institute of Science and Technology, KTR Campus</p>
