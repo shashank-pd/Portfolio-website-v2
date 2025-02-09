@@ -10,6 +10,7 @@ Welcome to the portfolio website of **Shashank Prasad**. This project showcases 
 - [🚀 Installation](#-installation)
 - [📈 Usage](#-usage)
 - [🗂️ File Structure](#%EF%B8%8F-file-structure)
+- [🐜 Screenshots](#-screenshots)
 - [📜 License](#-license)
 
 ---
@@ -17,37 +18,37 @@ Welcome to the portfolio website of **Shashank Prasad**. This project showcases 
 ## ✨ Features
 
 ### 🚦 Preloader
-- **First Preloader**: 🕑 Displays a loading animation when the website is first loaded.
+- **First Preloader**: 🖑 Displays a loading animation when the website is first loaded.
 - **Second Preloader**: 💬 Displays a welcome message after the first preloader.
 
-### 🧭 Navigation
+### 🧯 Navigation
 - **Sticky Header**: 📌 The header remains at the top of the page while scrolling.
-- **Side Navigation**: 📑 A collapsible side navigation menu for easy access to different sections.
-- **Main Navigation**: 🧭 A horizontal navigation bar with smooth scrolling to sections.
+- **Side Navigation**: 📜 A collapsible side navigation menu for easy access to different sections.
+- **Main Navigation**: 🧯 A horizontal navigation bar with smooth scrolling to sections.
 
-### 📋 Sections
+### 🗃️ Sections
 - **🏠 Home**: Introduction with a dynamic typing effect showcasing my interests.
 - **👤 About**: A brief description of myself, my approach to work, and my contact details.
 - **🛠️ Skills**: A list of my skills with progress bars indicating proficiency levels.
 - **🎓 Education**: Details of my educational background.
-- **🚧 Projects**: A showcase of my projects with descriptions and links to their repositories.
+- **🛇 Projects**: A showcase of my projects with descriptions and links to their repositories.
 - **📜 Certificates**: A showcase of my certificates with descriptions.
 - **📞 Contact**: A contact form for visitors to send me messages.
 
-### 🎨 Animations
+### 🌟 Animations
 - **💻 Typing Effect**: A dynamic typing effect on the home section.
 - **🧲 Smooth Scrolling**: Smooth scrolling behavior for navigation links.
-- **🖱️ Hover Effects**: Various hover effects on buttons and links for better user experience.
-- **🪄 Animations on Scroll**: Elements animate into view as the user scrolls down the page.
+- **💁‍♂️ Hover Effects**: Various hover effects on buttons and links for better user experience.
+- **🧉 Animations on Scroll**: Elements animate into view as the user scrolls down the page.
 
 ---
 
 ## 🛠️ Technologies Used
 
 - **🌐 HTML5**: Structure of the website.
-- **🎨 CSS3**: Styling of the website, including animations and responsive design.
-- **🧑‍💻 JavaScript**: Interactivity and dynamic content.
-- **⌨️ Typed.js**: Library for the typing effect.
+- **🌸 CSS3**: Styling of the website, including animations and responsive design.
+- **👨‍💻 JavaScript**: Interactivity and dynamic content.
+- **⌘ Typed.js**: Library for the typing effect.
 - **⭐ Font Awesome**: Icons used throughout the website.
 
 ---
@@ -83,10 +84,23 @@ portfolio/
 ├── assets/
 │   ├── certificates/
 │   └── img/
+├── mobile-view.png
+├── web-view.png
 ├── index.html
 ├── script.js
 └── style.css
 ```
+
+---
+
+## 🖼️ Screenshots
+
+   ### 1. Web View  
+<img src="./web_view.png" alt="Web View" width="40%">
+
+### 2. Mobile View  
+<img src="./mobile_view.jpg" alt="Mobile View" width="20%">
+
 
 ---
 
