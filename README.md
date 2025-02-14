@@ -5,16 +5,35 @@ Welcome to the portfolio website of **Shashank Prasad**. This project showcases 
 ---
 
 ## 📚 Table of Contents
-- [✨ Features](#-features)
+
+- [📸 Screenshots](#-screenshot)
 - [🛠️ Technologies Used](#%EF%B8%8F-technologies-used)
+- [✨ Features](#-features)
 - [🚀 Installation](#-installation)
 - [📈 Usage](#-usage)
 - [🗂️ File Structure](#%EF%B8%8F-file-structure)
-- [🐜 Screenshots](#-screenshots)
 - [📜 License](#-license)
 
 ---
 
+
+## 📸 Screenshot 
+### 1. Web View  
+<img src="https://github.com/user-attachments/assets/747598ce-821f-4aa9-8e79-715dcdf50bfe" alt="Web View" width="80%"/>
+
+### 2. Mobile View  
+<img src="https://github.com/user-attachments/assets/53c25918-faca-44bf-be31-1bf6dfe864bf" alt="Mobile View" width="50%"/>
+
+---
+## 🛠️ Technologies Used
+
+- **🌐 HTML5**: Structure of the website.
+- **🌸 CSS3**: Styling of the website, including animations and responsive design.
+- **👨‍💻 JavaScript**: Interactivity and dynamic content.
+- **⌘ Typed.js**: Library for the typing effect.
+- **⭐ Font Awesome**: Icons used throughout the website.
+
+---
 ## ✨ Features
 
 ### 🚦 Preloader
@@ -40,16 +59,6 @@ Welcome to the portfolio website of **Shashank Prasad**. This project showcases 
 - **🧲 Smooth Scrolling**: Smooth scrolling behavior for navigation links.
 - **💁‍♂️ Hover Effects**: Various hover effects on buttons and links for better user experience.
 - **🧉 Animations on Scroll**: Elements animate into view as the user scrolls down the page.
-
----
-
-## 🛠️ Technologies Used
-
-- **🌐 HTML5**: Structure of the website.
-- **🌸 CSS3**: Styling of the website, including animations and responsive design.
-- **👨‍💻 JavaScript**: Interactivity and dynamic content.
-- **⌘ Typed.js**: Library for the typing effect.
-- **⭐ Font Awesome**: Icons used throughout the website.
 
 ---
 
@@ -90,17 +99,6 @@ portfolio/
 ├── script.js
 └── style.css
 ```
-
----
-
-## 🖼️ Screenshots
-
-   ### 1. Web View  
-<img src="./web_view.png" alt="Web View" width="40%">
-
-### 2. Mobile View  
-<img src="./mobile_view.jpg" alt="Mobile View" width="20%">
-
 
 ---
 
